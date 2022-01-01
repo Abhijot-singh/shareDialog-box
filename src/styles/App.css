@@ -1,0 +1,134 @@
+.flex{
+  display: flex;
+}
+
+.container{
+  margin-left: 0rem; 
+}
+.share-button{
+  cursor: pointer;
+}
+#parent{
+  position: relative;
+  width: 100%;
+}
+.header-heading{
+  position: absolute;
+  top: 1.6rem;
+  left: 1.3rem;
+} 
+.crossButton-icon{
+  position: absolute;
+  top: 1.6rem;
+  left: 16rem;
+  cursor: pointer;
+}
+.line-one{
+  position: absolute;
+  top: 2.7rem;
+}
+
+.whatsapp-icon{
+  position: absolute;
+  top: 5.2rem;
+  left: 1.3rem;
+  cursor: pointer;
+}
+.whatsapp-icon:active{
+  outline: none;
+}
+.whatsapp-text{
+  position: absolute;
+  top: 5.5rem;
+  left: 3.5rem;
+  cursor: pointer;
+  outline: none;
+}
+.whatsapp-text:hover{
+  border-bottom: 2px solid yellow;
+}
+
+.whatsapp-line{
+  position: absolute;
+  top: 6rem;
+  left: 3.5rem;
+  opacity: 0;
+}
+.whatsapp-line:hover{
+  cursor: pointer;
+  position: absolute;
+  top: 6rem;
+  left: 3.5rem;
+  opacity: 1;
+}
+
+
+.line-two{
+  position: absolute;
+  top: 6.8rem;
+}
+
+.facebook-icon{
+  top:8.8rem ;
+  position: absolute;
+  left: 1.3rem;
+  cursor: pointer;
+}
+.facebook-text{
+  position: absolute;
+  left: 3.5rem;
+  top: 9.1rem;
+  cursor: pointer;
+}
+.facebook-text:hover{
+  border-bottom: 2px solid yellow;
+}
+
+.line-three{
+  position: absolute;
+  top: 10.5rem;
+}
+
+.twitter-icon{
+  position: absolute;
+  left: 1.3rem;
+  top: 12.8rem;
+  cursor: pointer;
+}
+
+.twitter-text{
+  position: absolute;
+  left: 3.5rem;
+  top: 13rem ;
+  cursor: pointer;
+}
+
+.twitter-text:hover{
+  border-bottom: 2px solid yellow;
+}
+ .line-four{
+   position: absolute;
+   top: 14.4rem;
+ }
+
+.copy-icon{
+  position: absolute;
+  left: 1.3rem; 
+  top: 16.4rem ; 
+  cursor: pointer;
+}
+
+.copy-text{
+  position: absolute;
+  left: 3.5rem;
+  top: 16.6rem;
+  cursor: pointer;
+}
+.copy-text:hover{
+  border-bottom: 2px solid yellow;
+}
+/* .whatsapp-line{
+  color: green;
+  top: 2rem;
+} */
+
